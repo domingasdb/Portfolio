@@ -60,7 +60,96 @@
         object-fit: cover;
     }
 
-    .about-section,
+    /* about-section */
+    .about-section {
+        width: 100%;
+        min-height: 100vh;
+        /* Fill the entire viewport height */
+        padding: 100px 0;
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-img-container {
+        position: relative;
+    }
+
+    .about-info {
+        font-size: 18px;
+        line-height: 25px;
+        opacity: 0.6;
+        margin-top: 20px;
+    }
+
+    .about-img {
+        width: 100%;
+        max-width: 400px;
+        /* Adjust the image width */
+        border-radius: 20px;
+    }
+
+    .cv-buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .download-cv-btn {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+
+    .download-cv-btn:hover {
+        background-color: #898181;
+    }
+
+    /* skills */
+    .skill-section {
+        position: relative;
+        min-height: 100vh;
+        margin: 100px 0;
+    }
+
+    .skills-container {
+        width: 90%;
+        /* Adjust as needed */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* Adjust columns as needed */
+        grid-gap: 20px;
+        color: #fff;
+    }
+
+    /* timeline */
+    .timeline {
+        display: block;
+        width: 80%;
+        margin: 100px auto;
+        /* Adjust as needed */
+    }
+
+    /* Adjust other sections similarly */
+
+    /* Rest of your CSS styles */
+
     .project-section,
     .contact-section {
         padding: 100px 20px;
