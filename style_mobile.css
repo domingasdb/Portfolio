@@ -134,7 +134,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         /* Adjust columns as needed */
-        grid-gap: 20px;
+        grid-gap: 15px;
         color: #fff;
     }
 
@@ -152,7 +152,7 @@
 
     .project-section,
     .contact-section {
-        padding: 20px 20px;
+        padding: 20px 15px;
         height: 100%;
         width: 100%;
         display: flex;
@@ -165,7 +165,7 @@
     .about,
     .project-container {
         grid-template-columns: 1fr;
-        grid-gap: 40px;
+        grid-gap: 30px;
     }
 
     .cv-buttons {
