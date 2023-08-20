@@ -12,10 +12,10 @@
         top: 0;
         left: 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: top;
+        align-items: top;
         z-index: 9;
-        background: #1a1a1a;
+        /* background: #1a1a1a; */
     }
 
     .link-group {
@@ -38,7 +38,7 @@
     }
 
     .home-img {
-        width: 100%;
+        width: auto;
         height: auto;
     }
 

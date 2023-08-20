@@ -330,7 +330,7 @@ body {
 }
 
 .skill-level {
-    position: absolute;
+    position: relative;
     top: 80px;
     right: 0;
     width: 150px;
