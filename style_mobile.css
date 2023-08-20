@@ -8,24 +8,6 @@
         padding: 10px 20px;
     }
 
-    /* .navbar {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9;
-        background: none;
-    } */
-
-    /* 
-    .link-group {
-        list-style: none;
-        display: flex;
-    } */
-
     .link-group {
         display: flex;
         flex-direction: row;
@@ -96,7 +78,6 @@
     .about-img {
         width: 100%;
         max-width: 400px;
-        /* Adjust the image width */
         border-radius: 20px;
     }
 
@@ -146,9 +127,6 @@
         /* Adjust as needed */
     }
 
-    /* Adjust other sections similarly */
-
-    /* Rest of your CSS styles */
 
     .project-section,
     .contact-section {
