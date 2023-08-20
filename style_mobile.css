@@ -1,0 +1,57 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: flex-start;
+        background: none;
+        padding: 10px 20px;
+    }
+
+    .link-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .link {
+        margin: 5px 0;
+    }
+
+    .home-section {
+        padding: 100px 20px;
+    }
+
+    .hero-heading {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .home-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-section,
+    .project-section,
+    .contact-section {
+        padding: 100px 20px;
+    }
+
+    .about,
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    .cv-buttons {
+        bottom: 20px;
+    }
+
+    .download-cv-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .map {
+        padding: 5px;
+    }
+}
