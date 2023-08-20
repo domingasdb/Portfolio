@@ -45,7 +45,7 @@
     }
 
     .home-section {
-        padding: 100px 20px;
+        padding: 60px 20px;
     }
 
     .hero-heading {
@@ -142,7 +142,7 @@
     .timeline {
         display: block;
         width: 80%;
-        margin: 50px auto;
+        margin: 45px auto;
         /* Adjust as needed */
     }
 
@@ -152,7 +152,7 @@
 
     .project-section,
     .contact-section {
-        padding: 100px 20px;
+        padding: 50px 20px;
         height: 100%;
         width: 100%;
         display: flex;
