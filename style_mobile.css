@@ -1,12 +1,14 @@
 /* Mobile Styles */
 @media (max-width: 600px) {
 
-    /* .navbar {
-        justify-content: flex-start;
+    .navbar {
+        position: fixed;
+        justify-content: top;
         background: none;
         padding: 10px 20px;
-    } */
-    .navbar {
+    }
+
+    /* .navbar {
         width: 100%;
         position: fixed;
         top: 0;
@@ -16,61 +18,61 @@
         align-items: top;
         z-index: 9;
         /* background: #1a1a1a; */
-    }
+}
 
-    .link-group {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+*/ .link-group {
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    .link {
-        margin: 5px 0;
-    }
+.link {
+    margin: 5px 0;
+}
 
-    .home-section {
-        padding: 100px 20px;
-    }
+.home-section {
+    padding: 100px 20px;
+}
 
-    .hero-heading {
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+.hero-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-    .home-img {
-        width: auto;
-        height: auto;
-    }
+.home-img {
+    width: auto;
+    height: auto;
+}
 
-    .about-section,
-    .project-section,
-    .contact-section {
-        padding: 100px 20px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+.about-section,
+.project-section,
+.contact-section {
+    padding: 100px 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-    .about,
-    .project-container {
-        grid-template-columns: 1fr;
-        grid-gap: 40px;
-    }
+.about,
+.project-container {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
 
-    .cv-buttons {
-        bottom: 20px;
-    }
+.cv-buttons {
+    bottom: 20px;
+}
 
-    .download-cv-btn {
-        padding: 5px 10px;
-        font-size: 12px;
-    }
+.download-cv-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+}
 
-    .map {
-        padding: 5px;
-    }
+.map {
+    padding: 5px;
+}
 }
