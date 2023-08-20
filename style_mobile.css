@@ -1,78 +1,86 @@
 /* Mobile Styles */
 @media (max-width: 600px) {
 
-    .navbar {
+    /* .navbar {
         position: fixed;
         justify-content: top;
         background: none;
         padding: 10px 20px;
-    }
+    } */
 
-    /* .navbar {
+    .navbar {
         width: 100%;
         position: fixed;
         top: 0;
         left: 0;
         display: flex;
-        justify-content: top;
-        align-items: top;
+        justify-content: center;
+        align-items: center;
         z-index: 9;
-        /* background: #1a1a1a; */
-}
+        background: none;
+    }
 
-*/ .link-group {
-    flex-direction: column;
-    align-items: flex-start;
-}
+    .link-group {
+        list-style: none;
+        display: flex;
+    }
 
-.link {
-    margin: 5px 0;
-}
+    .link a {
+        color: #fff;
+        opacity: 0.5;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 10px 30px;
+        margin: 0 20px;
+        line-height: 80px;
+        transition: .5s;
+        font-size: 20px;
+    }
 
-.home-section {
-    padding: 100px 20px;
-}
+    .home-section {
+        padding: 100px 20px;
+    }
 
-.hero-heading {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 20px;
-}
+    .hero-heading {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
-.home-img {
-    width: auto;
-    height: auto;
-}
+    .home-img {
+        width: auto;
+        height: auto;
+    }
 
-.about-section,
-.project-section,
-.contact-section {
-    padding: 100px 20px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .about-section,
+    .project-section,
+    .contact-section {
+        padding: 100px 20px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.about,
-.project-container {
-    grid-template-columns: 1fr;
-    grid-gap: 40px;
-}
+    .about,
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
 
-.cv-buttons {
-    bottom: 20px;
-}
+    .cv-buttons {
+        bottom: 20px;
+    }
 
-.download-cv-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-}
+    .download-cv-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
 
-.map {
-    padding: 5px;
-}
+    .map {
+        padding: 5px;
+    }
 }
